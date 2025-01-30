@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/Spring_Bean_LifeCycle_02/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_DI_03/pom.xml" />
         <option value="$PROJECT_DIR$/FullModeVsLightMode_04/pom.xml" />
+        <option value="$PROJECT_DIR$/Configuration_05/pom.xml" />
+        <option value="$PROJECT_DIR$/Runtime_Value_Injection/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
