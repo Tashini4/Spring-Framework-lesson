@@ -9,4 +9,5 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan(basePackages = "lk.ijse.bean" )
 @ComponentScan(basePackages = "lk.ijse.Controller")
 public class WebAppConfig {
+    
 }
