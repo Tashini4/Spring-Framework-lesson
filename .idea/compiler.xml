@@ -10,6 +10,7 @@
         <module name="Spring_Core_01" />
         <module name="Configuration_05" />
         <module name="Spring_DI_03" />
+        <module name="Spring_Web_MVC" />
         <module name="Spring_Bean_LifeCycle_02" />
         <module name="Spring_Environment_07" />
         <module name="Runtime_Value_Injection_06" />

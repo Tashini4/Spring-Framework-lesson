@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/Configuration_05/pom.xml" />
         <option value="$PROJECT_DIR$/Runtime_Value_Injection/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Environment_07/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Web_MVC/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
