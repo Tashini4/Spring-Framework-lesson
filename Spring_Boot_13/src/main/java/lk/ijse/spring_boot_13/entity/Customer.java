@@ -1,24 +1,29 @@
-package lk.ijse.dto;
+package lk.ijse.spring_boot_13.entity;
 
-public class CustomerDTO {
-    private String id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Customer {
+    @Id
+    private int id;
     private String name;
     private String address;
 
-    public CustomerDTO() {
+    public Customer() {
     }
 
-    public CustomerDTO(String id, String name, String address) {
+    public Customer(int id, String name, String address) {
         this.id = id;
         this.name = name;
         this.address = address;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -37,15 +42,4 @@ public class CustomerDTO {
     public void setAddress(String address) {
         this.address = address;
     }
-
-    @Override
-    public String toString() {
-        return "CustomerDTO{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                '}';
-    }
-
-
 }

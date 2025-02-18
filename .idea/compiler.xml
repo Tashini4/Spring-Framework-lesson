@@ -15,8 +15,15 @@
         <module name="Spring_Bean_LifeCycle_02" />
         <module name="Spring_Environment_07" />
         <module name="BackEnd_10" />
+        <module name="Spring_Data_JPA_12" />
         <module name="Runtime_Value_Injection_06" />
+        <module name="Spring_Boot_13" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring_Boot_13" options="-parameters" />
+    </option>
   </component>
 </project>
